@@ -9,7 +9,7 @@ app.use(cors({
   origin: 'http://localhost:3000',
   credentials: true
 }))
-
+//
 // read words from json file
 const fileContents = fs.readFileSync('./five-letter-words.json', 'utf-8');
 const words = JSON.parse(fileContents);
